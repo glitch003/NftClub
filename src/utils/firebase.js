@@ -3,7 +3,7 @@ import 'firebase/analytics'
 import('firebase/functions')
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyA51BLmKxwBXbPCUpsYAXUTku7SOQEwj54',
+  apiKey: 'AIzaSyA51BLmKxwBXbPCUpsYAXUTku7SOQEwj54', // don't care about using env vars for this because it will show up in the web site anyway
   authDomain: 'nftpaywall.firebaseapp.com',
   projectId: 'nftpaywall',
   storageBucket: 'nftpaywall.appspot.com',
