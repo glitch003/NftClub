@@ -8,6 +8,12 @@ The whole project runs on Firebase, so to deploy you would first create a Fireba
 
 There are 2 deployment scripts: 1 for frontend and 1 for backend.  Frontend is deploy.sh in the root folder and backend is deploy.sh in the functions folder.
 
+You'll need to set 2 env vars on firebase with the following command.  Please use your own bugsnag.com key for a nodejs project and an infura eth http rpc URL.
+
+```
+firebase functions:config:set bugsnag.apikey="put_a_bugsnag+apikey_here" infura.url="put_your_infura_url_here"
+```
+
 ### `yarn start`
 
 Runs the app in the development mode.\

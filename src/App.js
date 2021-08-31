@@ -299,6 +299,13 @@ function App () {
             Email us at support@nftclub.in
           </Link>
         </Typography>
+        <br />
+        <br />
+        <Typography variant='subtitle1'>NFT Club is now open source:{' '}
+          <Link variant='subtitle1' href='https://github.com/glitch003/NftClub'>
+            https://github.com/glitch003/NftClub
+          </Link>
+        </Typography>
       </div>
       <Snackbar
         anchorOrigin={{
